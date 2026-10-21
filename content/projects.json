@@ -394,7 +394,7 @@
         "alt": "Heart-rate card overlaying a full day from two devices: a low overnight trace, a walk, a sharp lunch-run peak and an evening yoga bump, with two red High BPM Error bands, averages of 68 and 69 and a PE10 of 2.36%"
       },
       {
-        "path": "/projects/fitbitcompare/rev-sleep.jpg",
+        "path": "/projects/fitbitcompare/rev-sleep-final.jpg",
         "width": 1960,
         "height": 1960,
         "kind": "crop",
@@ -424,7 +424,7 @@
         "body": "Each device’s night stacked as a hypnogram. The agreement rate shows how often both called the same stage; the duration delta is the gap in total sleep.",
         "media": [
           {
-            "src": "/projects/fitbitcompare/rev-sleep.jpg",
+            "src": "/projects/fitbitcompare/rev-sleep-final.jpg",
             "frame": "none"
           }
         ]
