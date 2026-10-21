@@ -1,19 +1,20 @@
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 import { ImageResponse } from "next/og";
 
 export const alt = "Noah Presler — Products that live close to people.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-async function font(family: string, italic = false) {
-  const css = await fetch(
-    `https://fonts.googleapis.com/css2?family=${family}${italic ? ":ital@1" : ""}&display=swap`,
-  ).then((r) => r.text());
-  const url = css.match(/src: url\((.+?)\) format/)?.[1];
-  return fetch(url!).then((r) => r.arrayBuffer());
-}
+// Fonts ship with the repo and load at module scope, so the image renders once at build
+// instead of on every request.
+const fontFile = (name: string) => readFile(join(process.cwd(), "assets", name));
+const [serif, serifItalic] = await Promise.all([
+  fontFile("InstrumentSerif-Regular.ttf"),
+  fontFile("InstrumentSerif-Italic.ttf"),
+]);
 
-export default async function OpengraphImage() {
-  const [serif, serifItalic] = await Promise.all([font("Instrument+Serif"), font("Instrument+Serif", true)]);
+export default function OpengraphImage() {
   return new ImageResponse(
     (
       <div
