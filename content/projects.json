@@ -1,0 +1,445 @@
+[
+  {
+    "slug": "miaraos",
+    "name": "MiaraOS",
+    "url": "https://miara.presler.me",
+    "year": 2026,
+    "platform": "iOS · Android · Web",
+    "tagline": "The little things, beautifully kept.",
+    "description": "A calm, private baby-care log for everyone who cares for your baby. Feeds, sleep, diapers, growth and first foods take a tap, or a sentence to Siri, Claude, ChatGPT or Gemini. Your partner sees it the moment it’s saved.",
+    "facts": [
+      "Native iOS and Android apps with Live Activities and widgets",
+      "Conversational logging through Siri and a remote MCP server",
+      "Shared households with roles for parents and caregivers"
+    ],
+    "tint": "#9fae8c",
+    "images": [
+      {
+        "path": "/projects/miaraos/hero-devices.jpg",
+        "width": 2880,
+        "height": 1620,
+        "kind": "og",
+        "alt": "Three iPhones showing the MiaraOS Trends, Today and Timeline screens under the headline \"Every feed, diaper and nap, shared.\""
+      },
+      {
+        "path": "/projects/miaraos/icon.png",
+        "width": 512,
+        "height": 512,
+        "kind": "icon",
+        "alt": "MiaraOS app icon: a serif M with a clay dot on cream"
+      },
+      {
+        "path": "/projects/miaraos/rev-together.jpg",
+        "width": 1000,
+        "height": 885,
+        "kind": "crop",
+        "alt": "A MiaraOS household of two parents, a caregiver and a viewer, above a feed of entries showing who logged or edited each one, including a bottle logged via Claude"
+      },
+      {
+        "path": "/projects/miaraos/crop-live-activity.jpg",
+        "width": 1050,
+        "height": 970,
+        "kind": "crop",
+        "alt": "MiaraOS Lock Screen live activities for a nap timer and a nursing session"
+      },
+      {
+        "path": "/projects/miaraos/rev-logging-dark.jpg",
+        "width": 1206,
+        "height": 1230,
+        "kind": "crop",
+        "alt": "MiaraOS in dark mode: the diaper sheet with one-tap Wet, Dirty and Mixed buttons and the time filled in, over a running sleep timer"
+      },
+      {
+        "path": "/projects/miaraos/rev-today-dark.jpg",
+        "width": 680,
+        "height": 1140,
+        "kind": "crop",
+        "alt": "The MiaraOS Today screen in dark mode: time since the last feed, diaper and wake-up, with today's totals beside the typical range for age"
+      },
+      {
+        "path": "/projects/miaraos/rev-timeline-dark.jpg",
+        "width": 1206,
+        "height": 2022,
+        "kind": "crop",
+        "alt": "The MiaraOS day timeline in dark mode, laying out a night of sleep, a 3:19 AM bottle and diaper changes hour by hour"
+      }
+    ],
+    "features": [
+      {
+        "title": "One tap, then back to bed",
+        "body": "Diapers take a single tap; bottles, nursing and sleep take a few, with the time already filled in. Or just say “log a 5 oz bottle.”",
+        "media": [
+          {
+            "src": "/projects/miaraos/rev-logging-dark.jpg",
+            "frame": "none"
+          }
+        ]
+      },
+      {
+        "title": "Everyone in sync at handoff",
+        "body": "Invite a partner, grandparent or nanny. The night shift sees what the day shift logged the moment it’s saved, and every entry shows who added or changed it.",
+        "media": [
+          {
+            "src": "/projects/miaraos/rev-together.jpg",
+            "frame": "none"
+          }
+        ]
+      },
+      {
+        "title": "The nap keeps time",
+        "body": "Sleep and nursing timers live on the Lock Screen and in the Dynamic Island. Whoever is up can end them from their own phone.",
+        "media": [
+          {
+            "src": "/projects/miaraos/crop-live-activity.jpg",
+            "frame": "none"
+          }
+        ]
+      },
+      {
+        "title": "Answers at 3 AM",
+        "body": "Today shows how long since the last feed, diaper and sleep, beside the typical range for age. The timeline lays out the whole night, hour by hour.",
+        "media": [
+          {
+            "src": "/projects/miaraos/rev-today-dark.jpg",
+            "frame": "none"
+          },
+          {
+            "src": "/projects/miaraos/rev-timeline-dark.jpg",
+            "frame": "none"
+          }
+        ]
+      }
+    ],
+    "oneLiner": "A calm baby log the whole household shares, in a tap."
+  },
+  {
+    "slug": "namewise",
+    "name": "NameWise",
+    "url": "https://namewise.presler.me",
+    "year": 2026,
+    "platform": "Web · iOS · Android",
+    "tagline": "Baby names, picked for you. Chosen together.",
+    "description": "An AI naming assistant for expecting couples. It learns your style, roots and must-haves, deals name cards that explain why they fit, and sharpens with every swipe. Match on a first name, then find the middle that flows.",
+    "facts": [
+      "Partners swipe independently; mutual likes become matches, with a push to your partner",
+      "Every card shows a match score, meaning and why it fits; swipes and notes tune the next batch",
+      "Name library, Middle Name Explorer and private family swiping"
+    ],
+    "tint": "#7ba391",
+    "images": [
+      {
+        "path": "/projects/namewise/hero-devices.jpg",
+        "width": 2880,
+        "height": 1620,
+        "kind": "og",
+        "alt": "Three iPhones showing the NameWise library, a swipe card for the name Lucia and a match screen, under \"Find the name, together\""
+      },
+      {
+        "path": "/projects/namewise/icon.png",
+        "width": 1024,
+        "height": 1024,
+        "kind": "icon",
+        "alt": "NameWise app icon: a cream serif N with a rose dot on sage green"
+      },
+      {
+        "path": "/projects/namewise/crop-personalize.jpg",
+        "width": 1140,
+        "height": 790,
+        "kind": "crop",
+        "alt": "NameWise onboarding: choosing which name styles feel right"
+      },
+      {
+        "path": "/projects/namewise/rev-card.jpg",
+        "width": 912,
+        "height": 880,
+        "kind": "crop",
+        "alt": "A NameWise name card: Lucía, 96% match, meaning \"Light\", with a line on why it fits the classic, nature feel you described"
+      },
+      {
+        "path": "/projects/namewise/rev-match.jpg",
+        "width": 540,
+        "height": 1018,
+        "kind": "crop",
+        "alt": "The NameWise match screen: \"It's a match! Lucía. Sam Rivera loved this name too!\""
+      },
+      {
+        "path": "/projects/namewise/rev-library.jpg",
+        "width": 1146,
+        "height": 2162,
+        "kind": "crop",
+        "alt": "The NameWise Name Library: Rowan and Maeve loved, a saved note on Rowan, and the partner who liked each name"
+      },
+      {
+        "path": "/projects/namewise/rev-middle.jpg",
+        "width": 1102,
+        "height": 1114,
+        "kind": "crop",
+        "alt": "A NameWise middle-name card: Rowan Elena Rivera, 92% match, \"Elena flows well between Rowan and Rivera\""
+      }
+    ],
+    "features": [
+      {
+        "title": "It asks before it suggests",
+        "body": "A few short questions on style, roots, meaning and popularity, plus the names you already love. Must-haves, like a starting letter, are rules, not hints.",
+        "media": [
+          {
+            "src": "/projects/namewise/crop-personalize.jpg",
+            "frame": "none"
+          }
+        ]
+      },
+      {
+        "title": "Every card makes its case",
+        "body": "Each name comes with a match score, its meaning and a line on why it fits you. Love, like, pass or add a note, and the next batch gets sharper.",
+        "media": [
+          {
+            "src": "/projects/namewise/rev-card.jpg",
+            "frame": "none"
+          }
+        ]
+      },
+      {
+        "title": "Swipe apart, match together",
+        "body": "You each swipe privately. When you both love a name, it's a match, and your partner gets a push. Every like lands in your library with notes and matches.",
+        "media": [
+          {
+            "src": "/projects/namewise/rev-match.jpg",
+            "frame": "none"
+          },
+          {
+            "src": "/projects/namewise/rev-library.jpg",
+            "frame": "none"
+          }
+        ]
+      },
+      {
+        "title": "Then, the middle name",
+        "body": "Lock in a first name and NameWise suggests middles scored on how the full name sounds with your surname. Swipe them the same way, together.",
+        "media": [
+          {
+            "src": "/projects/namewise/rev-middle.jpg",
+            "frame": "none"
+          }
+        ]
+      }
+    ],
+    "oneLiner": "An AI baby-name finder you swipe through together until you match."
+  },
+  {
+    "slug": "wewatch",
+    "name": "WeWatch",
+    "url": "https://wewatch.presler.me",
+    "year": 2026,
+    "platform": "Web · iOS · Android",
+    "tagline": "What to watch, together.",
+    "description": "A shared watchlist for two. Each partner picks favorites and describes their taste; Claude blends both into fresh picks every week, says why you'll like each one, and shows where it's streaming.",
+    "facts": [
+      "Recommendations that blend two people's taste",
+      "IMDb and Rotten Tomatoes scores with streaming badges",
+      "Native SwiftUI (Liquid Glass) and Android apps"
+    ],
+    "tint": "#ff3b6b",
+    "images": [
+      {
+        "path": "/projects/wewatch/rev-hero.jpg",
+        "width": 1920,
+        "height": 1200,
+        "kind": "desktop",
+        "alt": "WeWatch: \"What to watch, together.\" in a large editorial serif on a dark cinematic gradient"
+      },
+      {
+        "path": "/projects/wewatch/home-mobile.jpg",
+        "width": 1290,
+        "height": 2796,
+        "kind": "mobile",
+        "alt": "The WeWatch homepage on a phone"
+      },
+      {
+        "path": "/projects/wewatch/icon.jpg",
+        "width": 1024,
+        "height": 1024,
+        "kind": "icon",
+        "alt": "WeWatch app icon: a glass TV with sparkles over a magenta, indigo and teal gradient"
+      }
+    ],
+    "features": [
+      {
+        "title": "Two tastes, one list",
+        "body": "Each of you picks favorites and writes what you love. Claude blends both into weekly picks, and when tonight calls for something lighter, one sentence reshuffles the list.",
+        "media": [
+          {
+            "src": "/projects/wewatch/rev-hero.jpg",
+            "frame": "browser"
+          }
+        ]
+      },
+      {
+        "title": "One list, every screen",
+        "body": "Native SwiftUI on iPhone with Liquid Glass, Kotlin on Android, and the web, all sharing one list. Every poster carries IMDb and Rotten Tomatoes scores and streaming badges.",
+        "media": [
+          {
+            "src": "/projects/wewatch/icon.jpg",
+            "frame": "none"
+          },
+          {
+            "src": "/projects/wewatch/home-mobile.jpg",
+            "frame": "phone"
+          }
+        ]
+      }
+    ],
+    "oneLiner": "A shared watchlist that blends two tastes into picks you’ll both love."
+  },
+  {
+    "slug": "semesterly",
+    "name": "Semester.ly",
+    "url": "https://semester.ly",
+    "year": 2015,
+    "platform": "Web",
+    "tagline": "Every schedule that fits, built for you.",
+    "description": "The course scheduler I co-founded at Johns Hopkins. Pick your classes and it builds every conflict-free schedule, with ratings, reviews and open seats a click away. Open source since 2017, it still plans Hopkins semesters.",
+    "facts": [
+      "1,000+ Hopkins users in its first 24 hours",
+      "2M+ searches across nearly a dozen universities",
+      "Open source since 2017, now run by JHU Open Source"
+    ],
+    "tint": "#fc7473",
+    "images": [
+      {
+        "path": "/projects/semesterly/rev-week.jpg",
+        "width": 1433,
+        "height": 900,
+        "kind": "desktop",
+        "alt": "A generated Hopkins week in Semester.ly: Linear Algebra, Calculus III, Physics, Data Structures and Intermediate Programming, with dots to flip between schedule options"
+      },
+      {
+        "path": "/projects/semesterly/rev-course-card.jpg",
+        "width": 1762,
+        "height": 1130,
+        "kind": "desktop",
+        "alt": "The Data Structures course card: 4 credits, a four-star average rating, classmates' emoji reactions, prerequisites and past evaluations by term"
+      },
+      {
+        "path": "/projects/semesterly/advanced-search.png",
+        "width": 1340,
+        "height": 902,
+        "kind": "desktop",
+        "alt": "Advanced Search filtering by department, area, level and day/time"
+      },
+      {
+        "path": "/projects/semesterly/og.png",
+        "width": 1200,
+        "height": 630,
+        "kind": "og",
+        "alt": "The Semester.ly shield logo and wordmark over a faded schedule"
+      },
+      {
+        "path": "/projects/semesterly/logo.png",
+        "width": 558,
+        "height": 558,
+        "kind": "icon",
+        "alt": "The Semester.ly shield logo in coral, teal, sky blue and yellow"
+      }
+    ],
+    "features": [
+      {
+        "title": "Every schedule that fits",
+        "body": "Add your courses and it builds every conflict-free week. Flip through the options, then lock the sections you can't move.",
+        "media": [
+          {
+            "src": "/projects/semesterly/rev-week.jpg",
+            "frame": "none"
+          }
+        ]
+      },
+      {
+        "title": "Know the class first",
+        "body": "One click shows the average rating, past evaluations by term, prerequisites and how classmates really felt, in emoji.",
+        "media": [
+          {
+            "src": "/projects/semesterly/rev-course-card.jpg",
+            "frame": "none"
+          }
+        ]
+      },
+      {
+        "title": "Search the whole catalog",
+        "body": "Filter by department, area, level and time to find the class that fits the hole in your week.",
+        "media": [
+          {
+            "src": "/projects/semesterly/advanced-search.png",
+            "frame": "none"
+          }
+        ]
+      }
+    ],
+    "oneLiner": "The conflict-free course scheduler I co-founded at Johns Hopkins."
+  },
+  {
+    "slug": "fitbitcompare",
+    "name": "Fitbit Dual-Wear Compare",
+    "url": "https://fitbitcompare.presler.me",
+    "year": 2026,
+    "platform": "Web",
+    "tagline": "Two trackers. Know which to trust.",
+    "description": "For anyone wearing two or three trackers at once. Connect Fitbit, Strava, Polar or Oura accounts, pick a day, and heart rate, steps, sleep and workouts line up on one timeline, with the disagreements flagged and scored.",
+    "facts": [],
+    "tint": "#4db6ac",
+    "images": [
+      {
+        "path": "/projects/fitbitcompare/rev-hr-real.jpg",
+        "width": 2240,
+        "height": 1960,
+        "kind": "crop",
+        "alt": "Heart-rate card overlaying a full day from two devices: a low overnight trace, a walk, a sharp lunch-run peak and an evening yoga bump, with two red High BPM Error bands, averages of 68 and 69 and a PE10 of 2.36%"
+      },
+      {
+        "path": "/projects/fitbitcompare/rev-sleep.jpg",
+        "width": 1960,
+        "height": 1960,
+        "kind": "crop",
+        "alt": "Sleep Stages Agreement card stacking two devices' awake, light, deep and REM timelines, with a 70% agreement rate and a 5.3% sleep duration delta"
+      },
+      {
+        "path": "/projects/fitbitcompare/rev-workout-real.jpg",
+        "width": 2240,
+        "height": 2170,
+        "kind": "crop",
+        "alt": "Activity Summary comparing the same 12:05 lunch run from two devices, with distance, calories, elevation, heart-rate PE10 and cross-track error deltas above overlaid heart-rate traces where the second device is slow to lock on and briefly reads high"
+      }
+    ],
+    "features": [
+      {
+        "title": "Every beat, overlaid",
+        "body": "Minute-by-minute heart rate from each device on one chart. Red bands mark where they split, and PE10 scores how often they land more than 10 bpm apart.",
+        "media": [
+          {
+            "src": "/projects/fitbitcompare/rev-hr-real.jpg",
+            "frame": "none"
+          }
+        ]
+      },
+      {
+        "title": "Sleep, stage by stage",
+        "body": "Each device’s night stacked as a hypnogram. The agreement rate shows how often both called the same stage; the duration delta is the gap in total sleep.",
+        "media": [
+          {
+            "src": "/projects/fitbitcompare/rev-sleep.jpg",
+            "frame": "none"
+          }
+        ]
+      },
+      {
+        "title": "Run against run",
+        "body": "Pick a workout from each device to see distance, calories, elevation and route error side by side, with heart rate overlaid. Pair a Polar strap and it becomes ground truth.",
+        "media": [
+          {
+            "src": "/projects/fitbitcompare/rev-workout-real.jpg",
+            "frame": "none"
+          }
+        ]
+      }
+    ],
+    "oneLiner": "Wear two trackers at once and see which one to trust."
+  }
+]

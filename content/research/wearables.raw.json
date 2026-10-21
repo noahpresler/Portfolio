@@ -1,0 +1,462 @@
+[
+  {
+    "slug": "pixel-watch-3",
+    "name": "Google Pixel Watch 3",
+    "year": 2024,
+    "tagline": "First Pixel Watch offered in two sizes, adding a new 45mm option, with a 2x brighter 2,000-nit Actua display and first-of-its-kind Loss of Pulse Detection.",
+    "blogUrl": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-watch-3/",
+    "blogTitle": "Google Pixel Watch 3: bigger, brighter, fine-tuned for fitness",
+    "blogDate": "2024-08-13",
+    "images": [
+      {
+        "path": "/wearables/pixel-watch-3/hero-watch-ring.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Pixel Watch 3 in several colors arranged in a ring on a light background",
+        "note": "Keyword post hero (og:image Video_thumbnail.jpg). Clean off-white studio background; best primary hero."
+      },
+      {
+        "path": "/wearables/pixel-watch-3/lineup-41-45mm.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Pixel Watch 3 41mm and 45mm in-box colorways lined up on white",
+        "note": "From the Keyword post. White background with small size labels baked in."
+      },
+      {
+        "path": "/wearables/pixel-watch-3/bands-flat-lay.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Pixel Watch 3 surrounded by a flat lay of new watch bands",
+        "note": "From the Keyword post. Light background, bands-focused."
+      }
+    ],
+    "accolades": [
+      {
+        "quote": "Google's third iteration of the Pixel Watch is a winner, particularly the new, larger 45mm model",
+        "source": "Tom's Guide",
+        "author": "Dan Bracaglia",
+        "score": "4.5/5",
+        "award": "Editor's Choice",
+        "url": "https://www.tomsguide.com/wellness/smartwatches/google-pixel-watch-3-review"
+      },
+      {
+        "quote": "Still the best-looking smartwatch.",
+        "source": "WIRED",
+        "author": "Julian Chokkattu",
+        "score": "8/10",
+        "award": null,
+        "url": "https://www.wired.com/review/google-pixel-watch-3/"
+      },
+      {
+        "quote": "Google Pixel Watch 3 review: Our favorite smartwatch",
+        "source": "Android Central",
+        "author": "Michael L Hicks",
+        "score": "4.5/5",
+        "award": null,
+        "url": "https://www.androidcentral.com/wearables/google-pixel-watch-3-review"
+      },
+      {
+        "quote": "Google Pixel Watch 3 Review: Still My Favorite Android Watch",
+        "source": "CNET",
+        "author": "Lisa Eadicicco",
+        "score": "8.9/10",
+        "award": null,
+        "url": "https://www.cnet.com/tech/mobile/google-pixel-watch-3-review/"
+      }
+    ]
+  },
+  {
+    "slug": "pixel-watch-4",
+    "name": "Google Pixel Watch 4",
+    "year": 2025,
+    "tagline": "Redesigned around a domed Actua 360 display, with longer battery life and faster charging, standalone satellite SOS, raise-to-talk Gemini, and the first Pixel Watch designed for screen and battery repair.",
+    "blogUrl": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-4/",
+    "blogTitle": "Pixel Watch 4: Design upgrades, new fitness features and expanded AI",
+    "blogDate": "2025-08-20",
+    "images": [
+      {
+        "path": "/wearables/pixel-watch-4/blog-hero-dark.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Pixel Watch 4 on a dark background with 'Google' and 'Pixel Watch 4' wordmarks",
+        "note": "Keyword post hero/og:image (PixelWatch4_SS.png). Dark studio shot; wordmark text is baked into the image."
+      },
+      {
+        "path": "/wearables/pixel-watch-4/pixel-family.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Pixel 10 phone, Pixel Buds and Pixel Watch 4 under a 'Google Pixel' wordmark",
+        "note": "Made by Google 2025 collection social image; light background; watch is one of several products; text baked in."
+      },
+      {
+        "path": "/wearables/pixel-watch-4/serviceable-repair.png",
+        "width": 2048,
+        "height": 1152,
+        "alt": "Hands disassembling a Pixel Watch 4 with a small screwdriver",
+        "note": "From the Keyword post; illustrates the repairable design. Light background."
+      }
+    ],
+    "accolades": [
+      {
+        "quote": "The 45mm Google Pixel Watch 4 is my favorite smartwatch for Android",
+        "source": "Tom's Guide",
+        "author": "Dan Bracaglia",
+        "score": "4.5/5",
+        "award": "Editor's Choice",
+        "url": "https://www.tomsguide.com/wellness/smartwatches/i-just-went-hands-on-with-google-pixel-watch-4-and-it-could-be-my-new-favorite-smartwatch-for-android"
+      },
+      {
+        "quote": "Google Pixel Watch 4 Review: The Best Smartwatch for Android",
+        "source": "WIRED",
+        "author": "Julian Chokkattu",
+        "score": "8/10",
+        "award": null,
+        "url": "https://www.wired.com/review/google-pixel-watch-4/"
+      },
+      {
+        "quote": "The Pixel Watch 4 is a solid smartwatch thanks to its well-rounded suite of features. Its repairable design and super fast charging are laudable bonuses.",
+        "source": "Engadget",
+        "author": "Cherlynn Low",
+        "score": "86/100",
+        "award": null,
+        "url": "https://www.engadget.com/wearables/pixel-watch-4-review-a-well-rounded-smartwatch-with-a-surprising-advantage-170059851.html"
+      },
+      {
+        "quote": "the best all-round Wear OS smartwatch",
+        "source": "Tech Advisor",
+        "author": "Chris Martin",
+        "score": "4.5/5",
+        "award": null,
+        "url": "https://www.techadvisor.com/article/2945048/google-pixel-watch-4-review.html"
+      }
+    ]
+  },
+  {
+    "slug": "pixel-watch-5",
+    "name": "Google Pixel Watch 5",
+    "year": 2026,
+    "tagline": "Built for proactive Gemini Intelligence, with Google's most accurate GPS route tracking and new Health Guardian tools including industry-first breathing emergency detection and monthly blood pressure and metabolic health trends.",
+    "blogUrl": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-5/",
+    "blogTitle": "Pixel Watch 5: Proactive assistance and advanced health tracking on your wrist",
+    "blogDate": "2026-08-12",
+    "images": [
+      {
+        "path": "/wearables/pixel-watch-5/blog-hero-olive-flat-lay.png",
+        "width": 2400,
+        "height": 1349,
+        "alt": "Close-up of Pixel Watch 5 with an olive Active Band in a flat lay with leaves",
+        "note": "Keyword post hero/og:image (Active_Band_Olive_Flat_Lay_-_Edited.png). Tight crop, light background; RGBA file but fully opaque."
+      },
+      {
+        "path": "/wearables/pixel-watch-5/store-pair-dark.jpg",
+        "width": 1604,
+        "height": 1224,
+        "alt": "Two Pixel Watch 5 models with coral and white bands on a dark reflective surface",
+        "note": "From the Google Store Pixel Watch 5 product page (lh3 image, =s0 original). Clean dark product shot; good alternative hero."
+      },
+      {
+        "path": "/wearables/pixel-watch-5/gps-running-lifestyle.png",
+        "width": 2784,
+        "height": 1566,
+        "alt": "Runner wearing Pixel Watch 5 on a city street",
+        "note": "Hero of the 'How we built the new GPS on Pixel Watch 5' Keyword post. Lifestyle."
+      },
+      {
+        "path": "/wearables/pixel-watch-5/mbg-2026-lineup.webp",
+        "width": 2200,
+        "height": 1237,
+        "alt": "Pixel 11 phones, Pixel Buds and Pixel Watch 5 lineup",
+        "note": "Made by Google 2026 collection image embedded in the post. Watch is small within the family lineup."
+      }
+    ],
+    "accolades": [
+      {
+        "quote": "Pixel Watch 5 review: A fantastic watch that's missing features at launch",
+        "source": "Engadget",
+        "author": "Cherlynn Low",
+        "score": "9/10",
+        "award": null,
+        "url": "https://www.engadget.com/2241496/google-pixel-watch-5-review/"
+      },
+      {
+        "quote": "the Pixel Watch 5 is such a complete package, it's hard to pinpoint anything you'll really need that's missing.",
+        "source": "Android Police",
+        "author": "Andy Boxall",
+        "score": "9/10",
+        "award": "Editor's Choice",
+        "url": "https://www.androidpolice.com/google-pixel-watch-5-review/"
+      },
+      {
+        "quote": "it remains one of the most polished smartwatches around",
+        "source": "Trusted Reviews",
+        "author": "Lewis Painter",
+        "score": "4/5",
+        "award": null,
+        "url": "https://www.trustedreviews.com/reviews/google-pixel-watch-5"
+      },
+      {
+        "quote": "Google Pixel Watch 5 Review: Long Live The King",
+        "source": "SlashGear",
+        "author": "Adam Doud",
+        "score": null,
+        "award": null,
+        "url": "https://www.slashgear.com/2246785/google-pixel-watch-5-review-2026/"
+      }
+    ]
+  },
+  {
+    "slug": "fitbit-air",
+    "name": "Google Fitbit Air",
+    "year": 2026,
+    "tagline": "A tiny, screenless $99 tracker with week-long battery life, launched alongside the new Google Health app and Google Health Coach as Fitbit's next era.",
+    "blogUrl": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-air/",
+    "blogTitle": "Introducing the all-new Fitbit Air",
+    "blogDate": "2026-05-07",
+    "images": [
+      {
+        "path": "/wearables/fitbit-air/blog-hero-yoga-bands.png",
+        "width": 2096,
+        "height": 1182,
+        "alt": "Woman stretching outdoors wearing Fitbit Air, beside four Fitbit Air bands in different colors",
+        "note": "Keyword post hero (fitbitair_hero.png; same composition as og:image). Split lifestyle + product composite."
+      },
+      {
+        "path": "/wearables/fitbit-air/active-bands.png",
+        "width": 4192,
+        "height": 2364,
+        "alt": "Fitbit Air Active Bands in blue, black, red and sage on a pale blue background",
+        "note": "From the Keyword post (Band_Active.png). Clean product render, very high res."
+      },
+      {
+        "path": "/wearables/fitbit-air/elevated-bands.png",
+        "width": 4192,
+        "height": 2364,
+        "alt": "Fitbit Air Elevated bands in cream, black and blue-grey on a pale background",
+        "note": "From the Keyword post (Band_Elevated.png). Clean product render, very high res."
+      },
+      {
+        "path": "/wearables/fitbit-air/google-health-banner.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Fitbit Air bands flanking a 'Meet Google Health' wordmark on white",
+        "note": "og:image of the companion 'A new era for your health and wellness' collection page. Wide banner with text baked in; opaque white."
+      }
+    ],
+    "accolades": [
+      {
+        "quote": "the best Whoop alternative for the rest of us",
+        "source": "Tom's Guide",
+        "author": "Dan Bracaglia",
+        "score": "4.5/5",
+        "award": "Recommended",
+        "url": "https://www.tomsguide.com/wellness/fitness-trackers/fitbit-air-review"
+      },
+      {
+        "quote": "Lightest, most comfortable Fitbit yet.",
+        "source": "WIRED",
+        "author": "Boutayna Chokrane",
+        "score": "8/10",
+        "award": null,
+        "url": "https://www.wired.com/review/google-fitbit-air/"
+      },
+      {
+        "quote": "The Fitbit Air is exactly the type of product Google needs",
+        "source": "Android Central",
+        "author": "Derrek Lee",
+        "score": "4.5/5",
+        "award": null,
+        "url": "https://www.androidcentral.com/wearables/fitbit/fitbit-air-review"
+      },
+      {
+        "quote": "For the average user, the $100 Fitbit Air is the ideal screenless health tracker",
+        "source": "CNN Underscored",
+        "author": "Rick Stella",
+        "score": null,
+        "award": null,
+        "url": "https://www.cnn.com/cnn-underscored/reviews/google-fitbit-air"
+      }
+    ]
+  },
+  {
+    "slug": "fitbit-edge",
+    "name": "Google Fitbit Edge",
+    "year": 2026,
+    "tagline": "Successor to the Fitbit Charge line: a $179.99 tracker with a 1.34-inch AMOLED display, built-in GPS, seven-day battery and Pixel Watch-grade health features.",
+    "blogUrl": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/",
+    "blogTitle": "Google Fitbit Edge: Our all-new smartest fitness tracker ever",
+    "blogDate": "2026-10-12",
+    "images": [
+      {
+        "path": "/wearables/fitbit-edge/blog-hero-lineup.png",
+        "width": 2784,
+        "height": 1566,
+        "alt": "Five Fitbit Edge trackers with different bands alongside 'Google' and 'Fitbit Edge' wordmarks",
+        "note": "Keyword post hero/og:image (Fitbit_Edge_thumb.png). Pale background; wordmarks baked in."
+      },
+      {
+        "path": "/wearables/fitbit-edge/sensor-light-dark.png",
+        "width": 2560,
+        "height": 1440,
+        "alt": "Underside of Fitbit Edge with its green sensor light glowing on black",
+        "note": "From the Keyword post (Fitbit_Edge_-_light_shot.png). Dramatic dark product shot; RGBA file but fully opaque."
+      },
+      {
+        "path": "/wearables/fitbit-edge/charging-side-table.webp",
+        "width": 2000,
+        "height": 1414,
+        "alt": "Fitbit Edge charging on a wooden side table",
+        "note": "From the Keyword post (Fitbit_Edge_Still, 2000px rendition; the original JPEG is ~29MB). Lifestyle."
+      }
+    ],
+    "accolades": [
+      {
+        "quote": "here's why the Fitbit Edge already has me impressed",
+        "source": "Tom's Guide",
+        "author": "Dan Bracaglia",
+        "score": null,
+        "award": null,
+        "url": "https://www.tomsguide.com/wellness/fitness-trackers/i-just-spent-24-hours-with-the-fitbit-edge-3-reasons-why-im-already-impressed"
+      },
+      {
+        "quote": "the Fitbit Edge is incredibly comfortable",
+        "source": "Tom's Guide",
+        "author": "Dan Bracaglia",
+        "score": null,
+        "award": null,
+        "url": "https://www.tomsguide.com/wellness/fitness-trackers/i-just-spent-24-hours-with-the-fitbit-edge-3-reasons-why-im-already-impressed"
+      },
+      {
+        "quote": "even more of a \"Pixel Watch Lite\" than the Charge 6 already was",
+        "source": "9to5Google",
+        "author": "Ben Schoon",
+        "score": null,
+        "award": null,
+        "url": "https://9to5google.com/2026/10/14/google-fitbit-edge-hands-on-pixel-watch-lite-take-two/"
+      }
+    ]
+  },
+  {
+    "slug": "fitbit-sense-2",
+    "name": "Fitbit Sense 2",
+    "year": 2022,
+    "tagline": "Fitbit's most advanced health smartwatch, adding a Body Response sensor for continuous EDA (cEDA) all-day stress tracking, the return of a physical button, and Google Maps and Wallet on the wrist.",
+    "blogUrl": "https://blog.google/products-and-platforms/devices/fitbit/versa-4-sense-2/",
+    "blogTitle": "Manage your health and fitness with Fitbit Versa 4 and Sense 2",
+    "blogDate": "2022-08-24",
+    "images": [
+      {
+        "path": "/wearables/fitbit-sense-2/blog-hero-sense-2-versa-4.jpg",
+        "width": 6000,
+        "height": 3281,
+        "alt": "Versa 4 in waterfall blue and Sense 2 in lunar white side by side on a slate background",
+        "note": "Keyword post hero/og:image (Sense_2_Versa_4_Hero.jpg), 6000px original. Shared with Versa 4; Sense 2 is the white device on the right."
+      },
+      {
+        "path": "/wearables/fitbit-sense-2/sense-2-shadow-grey-front-back.webp",
+        "width": 2000,
+        "height": 963,
+        "alt": "Sense 2 in shadow grey showing the screen and the back sensor side by side",
+        "note": "From the Keyword post (2000px rendition). Gradient grey background, product-focused."
+      },
+      {
+        "path": "/wearables/fitbit-sense-2/brother-vellies-oak-band-render.webp",
+        "width": 1000,
+        "height": 1000,
+        "alt": "Sense 2 / Versa 4 body on a Brother Vellies woven leather band in oak",
+        "note": "From the Keyword post. TRANSPARENT background (alpha 0 corners). Accessory-band render, 1000px."
+      }
+    ],
+    "accolades": [
+      {
+        "quote": "The Fitbit Sense 2 is an advanced fitness-tracking smartwatch, with great battery life, and tools to help manage your physical health and mood.",
+        "source": "Tom's Guide",
+        "author": "Kate Kozuch",
+        "score": "4/5",
+        "award": "Recommended",
+        "url": "https://www.tomsguide.com/reviews/fitbit-sense-2"
+      },
+      {
+        "quote": "the Fitbit Sense 2 goes above fitness tracking and offers an advanced holistic view of wellbeing",
+        "source": "Woman & Home",
+        "author": "Grace Walsh",
+        "score": "3.5/5",
+        "award": null,
+        "url": "https://www.womanandhome.com/health-wellbeing/fitbit-sense-2-review/"
+      },
+      {
+        "quote": "an enjoyable-to-use casual health and fitness tracker that demands less upkeep than an Apple Watch",
+        "source": "TechRadar",
+        "author": "Andrew Williams",
+        "score": "3/5",
+        "award": null,
+        "url": "https://www.techradar.com/reviews/fitbit-sense-2"
+      }
+    ]
+  },
+  {
+    "slug": "fitbit-versa-4",
+    "name": "Fitbit Versa 4",
+    "year": 2022,
+    "tagline": "A thinner, lighter fitness-first smartwatch that brought back the physical button, with 6+ day battery, built-in GPS, 40+ exercise modes and Google Maps and Wallet support.",
+    "blogUrl": "https://blog.google/products-and-platforms/devices/fitbit/versa-4-sense-2/",
+    "blogTitle": "Manage your health and fitness with Fitbit Versa 4 and Sense 2",
+    "blogDate": "2022-08-24",
+    "images": [
+      {
+        "path": "/wearables/fitbit-versa-4/blog-hero-sense-2-versa-4.jpg",
+        "width": 6000,
+        "height": 3281,
+        "alt": "Versa 4 in waterfall blue and Sense 2 in lunar white side by side on a slate background",
+        "note": "Keyword post hero/og:image, 6000px original. Shared with Sense 2; Versa 4 is the blue device on the left."
+      },
+      {
+        "path": "/wearables/fitbit-versa-4/versa-4-kettlebell.webp",
+        "width": 1000,
+        "height": 563,
+        "alt": "Woman lifting a kettlebell wearing Versa 4",
+        "note": "From the Keyword post (1000px rendition; no original found). Lifestyle."
+      },
+      {
+        "path": "/wearables/fitbit-versa-4/brother-vellies-black-band-render.webp",
+        "width": 1000,
+        "height": 1000,
+        "alt": "Versa 4 / Sense 2 body on a Brother Vellies woven leather band in black",
+        "note": "From the Keyword post. TRANSPARENT background (alpha 0 corners). Accessory-band render, 1000px."
+      }
+    ],
+    "accolades": [
+      {
+        "quote": "A fantastic fitness tracker with smartwatch features",
+        "source": "Woman & Home",
+        "author": "Grace Walsh",
+        "score": "4.5/5",
+        "award": null,
+        "url": "https://www.womanandhome.com/health-wellbeing/fitbit-versa-4-review/"
+      },
+      {
+        "quote": "the Versa 4 is a great sleep-tracking smartwatch",
+        "source": "Tom's Guide",
+        "author": "Kate Kozuch",
+        "score": "3/5",
+        "award": null,
+        "url": "https://www.tomsguide.com/reviews/fitbit-versa-4"
+      },
+      {
+        "quote": "The Fitbit Versa 4 is a solid, affordable fitness tracker packed into a smartwatch body",
+        "source": "Trusted Reviews",
+        "author": "Michael Sawh",
+        "score": "3.5/5",
+        "award": null,
+        "url": "https://www.trustedreviews.com/reviews/fitbit-versa-4"
+      },
+      {
+        "quote": "The Fitbit Versa 4 is a likable casual fitness tracker watch",
+        "source": "Live Science",
+        "author": "Andrew Williams",
+        "score": "3.5/5",
+        "award": null,
+        "url": "https://www.livescience.com/fitbit-versa-4-review"
+      }
+    ]
+  }
+]

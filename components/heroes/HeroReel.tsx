@@ -1,0 +1,102 @@
+"use client";
+
+import Image from "next/image";
+import { useRef } from "react";
+import { motion, useScroll, useTransform, type MotionValue } from "motion/react";
+import type { Img, ReelShot, Wearable } from "@/lib/content";
+import { EASE, WordRise } from "../Reveal";
+
+// A reel tile: one device photo, or one tightly cropped product moment.
+type Shot = { img: Img; label: string; href: string };
+
+/** The work itself in motion: two counter-drifting reels of real product imagery. */
+export function HeroReel({ devices, shots }: { devices: Wearable[]; shots: ReelShot[] }) {
+  const ref = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
+  const shift = useTransform(scrollYProgress, [0, 1], [0, 320]);
+  const fade = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
+
+  const deviceShots: Shot[] = devices.map((d) => ({ img: d.images[0], label: d.name, href: "#wearables" }));
+  const productShots: Shot[] = shots.map(({ label, href, ...img }) => ({ img, label, href }));
+
+  return (
+    <section ref={ref} id="top" className="relative flex min-h-svh flex-col justify-center overflow-hidden pt-28 pb-10">
+      <motion.div style={{ opacity: fade }} className="mx-auto w-full max-w-6xl px-6 text-center">
+        <motion.p
+          className="mb-6 font-mono text-[11px] uppercase tracking-[0.22em] text-mute"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.1 }}
+        >
+          <span className="max-sm:hidden">Noah Presler · </span>Product Leader · Builder · Father
+        </motion.p>
+        <h1 className="font-serif text-[clamp(3rem,6.6vw,6.2rem)] leading-[0.93] tracking-[-0.025em]">
+          <WordRise text="Products that live" delay={0.2} />{" "}
+          <br />
+          <span className="italic text-accent">
+            <WordRise text="close to people." delay={0.36} />
+          </span>
+        </h1>
+        <motion.p
+          className="mx-auto mt-6 max-w-xl text-[16px] leading-relaxed text-mute md:text-[17px]"
+          initial={{ opacity: 0, y: 12, filter: "blur(6px)" }}
+          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{ duration: 1.1, ease: EASE, delay: 0.7 }}
+        >
+          Helping people live a longer, healthier life – through wearables, and personal projects for the moments that matter.
+        </motion.p>
+      </motion.div>
+
+      <motion.div
+        className="mt-12 space-y-4 [mask-image:linear-gradient(90deg,transparent,#000_8%,#000_92%,transparent)] md:mt-14"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.4, ease: EASE, delay: 0.85 }}
+      >
+        <Reel shots={deviceShots} direction={-1} shift={shift} seconds={70} />
+        <Reel shots={productShots} direction={1} shift={shift} seconds={80} />
+      </motion.div>
+    </section>
+  );
+}
+
+function Reel({ shots, direction, shift, seconds }: { shots: Shot[]; direction: 1 | -1; shift: MotionValue<number>; seconds: number }) {
+  // Scrolling pushes each reel further along its own direction on top of the idle drift.
+  const x = useTransform(shift, (v) => v * direction);
+  const row = [...shots, ...shots];
+  return (
+    <motion.div style={{ x }}>
+      <div
+        className="group/reel flex w-max gap-4 hover:[animation-play-state:paused]"
+        style={{
+          animation: `ticker ${seconds}s linear infinite`,
+          animationDirection: direction === 1 ? "reverse" : "normal",
+          ["--gap" as string]: "1rem",
+        }}
+      >
+        {row.map((s, i) => (
+          <a
+            key={i}
+            href={s.href}
+            aria-hidden={i >= shots.length || undefined}
+            tabIndex={i >= shots.length ? -1 : undefined}
+            className="group relative block h-[clamp(130px,19svh,210px)] shrink-0 overflow-hidden rounded-[16px] border border-white/[0.07] bg-ink-2"
+            // Tiles take the shot's own shape, so a crop is never cropped again.
+            style={{ aspectRatio: String(Math.min(2.1, Math.max(1.2, s.img.width / s.img.height))) }}
+          >
+            <Image
+              src={s.img.path}
+              alt={s.img.alt}
+              fill
+              sizes="420px"
+              className="object-cover transition-transform duration-[1.2s] ease-[var(--ease-out)] group-hover:scale-[1.05]"
+            />
+            <span className="absolute bottom-2.5 left-2.5 max-w-[90%] truncate rounded-full bg-black/55 px-2.5 py-1 text-[11px] text-white/90 opacity-0 backdrop-blur-md transition-opacity duration-300 group-hover:opacity-100">
+              {s.label}
+            </span>
+          </a>
+        ))}
+      </div>
+    </motion.div>
+  );
+}

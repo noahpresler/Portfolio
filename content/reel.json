@@ -1,0 +1,82 @@
+[
+  {
+    "path": "/reel/miara-today-dark.jpg",
+    "width": 680,
+    "height": 485,
+    "alt": "Today screen: last feed 3h 11m ago, last diaper 19m ago, woke up 23m ago",
+    "label": "MiaraOS · Last feed, diaper and nap at a glance",
+    "href": "#miaraos"
+  },
+  {
+    "path": "/reel/namewise-swipe.jpg",
+    "width": 940,
+    "height": 760,
+    "alt": "Swipe card for the name Lucía with a 96% match",
+    "label": "NameWise · Names picked for you",
+    "href": "#namewise"
+  },
+  {
+    "path": "/reel/miara-live.jpg",
+    "width": 790,
+    "height": 520,
+    "alt": "Lock Screen live activity: asleep 42:18 with End sleep, and a nursing timer",
+    "label": "MiaraOS · Live Activities on the Lock Screen",
+    "href": "#miaraos"
+  },
+  {
+    "path": "/reel/wewatch-title.jpg",
+    "width": 1480,
+    "height": 820,
+    "alt": "WeWatch: What to watch, together",
+    "label": "WeWatch · What to watch, together",
+    "href": "#wewatch"
+  },
+  {
+    "path": "/reel/miara-together.jpg",
+    "width": 1000,
+    "height": 800,
+    "alt": "Household members Alex, Sam, Grandma June and Rita with a feed of who logged each entry",
+    "label": "MiaraOS · Everyone on the same page",
+    "href": "#miaraos"
+  },
+  {
+    "path": "/reel/namewise-match.jpg",
+    "width": 920,
+    "height": 760,
+    "alt": "It’s a match: both partners loved Lucía",
+    "label": "NameWise · It’s a match",
+    "href": "#namewise"
+  },
+  {
+    "path": "/projects/miaraos/crop-first-foods.jpg",
+    "width": 1050,
+    "height": 775,
+    "alt": "Rainbow of first foods: 27 of 100 foods with allergen counts",
+    "label": "MiaraOS · A rainbow of firsts",
+    "href": "#miaraos"
+  },
+  {
+    "path": "/reel/namewise-style.jpg",
+    "width": 1040,
+    "height": 700,
+    "alt": "Style step: chips for Classic, Soft & Gentle, Modern, Elegant and more",
+    "label": "NameWise · Names that understand you",
+    "href": "#namewise"
+  },
+  {
+    "path": "/reel/miara-totals-dark.jpg",
+    "width": 680,
+    "height": 335,
+    "alt": "Today so far: 8.5 oz fed, 4 diapers, 8h 21m sleep against typical ranges",
+    "label": "MiaraOS · Today so far",
+    "href": "#miaraos"
+  },
+  {
+    "path": "/reel/wewatch-icon.jpg",
+    "width": 1024,
+    "height": 790,
+    "alt": "WeWatch app icon: a glowing screen with a sparkle",
+    "label": "WeWatch · Let it pick the next great thing",
+    "href": "#wewatch"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "slug": "fitbitcompare",
+  "name": "Fitbit Dual Wear Compare",
+  "url": "https://fitbitcompare.presler.me",
+  "repo": "https://github.com/noahpresler/Fitbit-Data-Analysis (private)",
+  "year": 2026,
+  "platform": "Web (Next.js on Vercel)",
+  "tagline": "Compare fitness data between two or three Fitbit accounts side-by-side",
+  "description": "A web app for people who wear two or three fitness trackers at once and want to see how closely they agree. Connect up to three accounts (Fitbit, plus Strava, Polar or Oura), pick a day, and the app overlays heart rate, steps, sleep stages, activities and workout TCX/GPS data on shared timelines. It flags 'High BPM Error' windows where devices disagree, and scores agreement with PE10 heart-rate error and a sleep-stage agreement rate.",
+  "facts": [
+    "Live at fitbitcompare.presler.me; page title 'Fitbit Dual Wear Compare', hero kicker 'Dual device insights', subtitle 'Compare your data from two or three devices/accounts, with ease'.",
+    "Connects up to three account slots over OAuth: Fitbit (PKCE OAuth, scopes activity/heartrate/sleep/profile/location), Strava, Polar (AccessLink) and Oura. Sessions are encrypted cookies (iron-session).",
+    "Per-day dashboard cards: Daily Activity Summary (calories and Active Zone Minutes per device, with a delta column), Heart Rate (BPM), Steps, Sleep Stages Agreement (Last Night), and an Activity & TCX Viewer.",
+    "The heart-rate chart overlays every device's minute-level HR, labels each device's logged activities, and shades 'High BPM Error' regions where the devices diverge. It reports per-device averages and PE10 (share of points off by more than 10%).",
+    "Sleep view lines up each device's hypnogram (Awake/Light/Deep/REM) and reports an Agreement Rate and a Sleep Duration Delta.",
+    "The TCX viewer overlays HR, elevation and GPS route (Google Maps) per activity, with legend toggles. Later commits add avg-BPM and PE10 error 'vs Polar', treating a Polar chest strap as the reference.",
+    "Charts support drag-to-zoom with a reset button, and a Copy button puts the chart on the clipboard as a PNG.",
+    "Much of the work went into timezone alignment, so data from devices and accounts in different timezones lines up on one local-day axis (many commits on UTC/TCX/Polar offset normalization).",
+    "Includes privacy/terms and support pages, plus a disclaimer that it is not affiliated with Fitbit or Google.",
+    "Stack: Next.js 16 (App Router, Turbopack), React 19, TypeScript, Chart.js 4 + react-chartjs-2 + chartjs-plugin-annotation, Tailwind CSS 4 (mostly hand-written CSS), iron-session, Vercel Analytics.",
+    "Started from a single-file HTML/Chart.js prototype (fitbit-compare.txt), which was ported to Next.js on the first day.",
+    "First commit 2026-02-01, latest 2026-03-15; about 664 commits, with many PRs from Claude Code and Codex agent branches.",
+    "There is a built-in MOCK_AUTH mode with deterministic synthetic profiles ('Mock User One/Two/Three') and data."
+  ],
+  "brand": {
+    "colors": {
+      "primaryTeal": "#4db6ac",
+      "tealHover": "#26a69a",
+      "tealDarkText": "#2f6f6a",
+      "device1Series": "#4db6ac",
+      "device2Series": "#ab47bc",
+      "errorRed": "#dc2626",
+      "text": "#202124",
+      "textMuted": "#5f6368",
+      "border": "#e8eaed",
+      "background": "#f5f5f5",
+      "heroGradient": "linear-gradient(135deg, #ffffff 0%, #f3f7ff 45%, #eef8f7 100%)",
+      "fitbitButton": "#00b0b9",
+      "stravaButton": "#fc4c02",
+      "polarButton": "#000000",
+      "ouraButton": "#2f4a73",
+      "sleepStages": { "awake": "#f57c00", "light": "#4db6ac", "deep": "#1565c0", "rem": "#ab47bc" }
+    },
+    "fonts": ["Google Sans", "Roboto", "system sans-serif fallback (-apple-system, Segoe UI)"]
+  },
+  "images": [
+    { "path": "/projects/fitbitcompare/home.jpg", "width": 2880, "height": 1800, "kind": "desktop", "alt": "Fitbit Dual-Wear Compare homepage with a 'Dual device insights' hero and a Connect Accounts panel offering Fitbit, Strava, Polar or Oura" },
+    { "path": "/projects/fitbitcompare/home-mobile.jpg", "width": 1290, "height": 2380, "kind": "mobile", "alt": "Mobile view of the Fitbit Dual-Wear Compare landing page with the Add an account button" },
+    { "path": "/projects/fitbitcompare/heart-rate.jpg", "width": 2848, "height": 1385, "kind": "crop", "alt": "Heart-rate chart overlaying two devices in teal and purple, with activity labels, red High BPM Error bands, per-device averages and a PE10 score" },
+    { "path": "/projects/fitbitcompare/sleep-agreement.jpg", "width": 2848, "height": 1385, "kind": "crop", "alt": "Sleep Stages Agreement chart comparing two devices' awake, light, deep and REM timelines, with a 70% agreement rate" },
+    { "path": "/projects/fitbitcompare/heart-rate-mobile.jpg", "width": 1278, "height": 2477, "kind": "crop", "alt": "Mobile heart-rate comparison card with overlaid device lines, activity and error labels, and stacked average and PE10 stats" }
+  ]
+}

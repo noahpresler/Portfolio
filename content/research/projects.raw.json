@@ -1,0 +1,409 @@
+[
+  {
+    "slug": "miaraos",
+    "name": "MiaraOS",
+    "tagline": "The little things, beautifully kept.",
+    "description": "MiaraOS (branded \"Miara\" on its website) is a calm, private baby-care log for feeds, diapers, sleep, growth and first foods, shared with everyone who cares for the baby. Logging takes a tap, or a sentence to Siri, Claude, ChatGPT or Gemini. Optional AI insights turn the log into plain-language notes on what is changing.",
+    "url": "https://miara.presler.me",
+    "repo": "https://github.com/noahpresler/MiaraOS (private)",
+    "year": 2026,
+    "platform": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "stack": [
+      "SwiftUI",
+      "Kotlin (Android)",
+      "Supabase (Postgres, Auth, Realtime, RLS)",
+      "Next.js 15",
+      "React 19",
+      "TypeScript",
+      "Remote MCP server with OAuth",
+      "Claude API (insights)",
+      "WidgetKit / Live Activities"
+    ],
+    "facts": [
+      "Native SwiftUI iOS app with home-screen widget, Lock Screen and Dynamic Island live activities",
+      "Conversational logging through Siri/Shortcuts and a remote MCP server for Claude and ChatGPT (site also lists Gemini)",
+      "Shared households with roles: parents, caregivers and viewers; every record shows who added or changed it",
+      "Trends, a 24-hour timeline, a week view and WHO growth percentiles",
+      "First-foods \"rainbow\" toward 100 foods, with allergen tracking",
+      "Opt-in AI insights written by Claude; no ads or tracking",
+      "App Store listing prepared (\"MiaraOS: Baby Care & Sleep Log\", Health & Fitness); no public App Store listing found yet",
+      "Repo started Oct 2026"
+    ],
+    "brand": {
+      "colors": [
+        "#465744",
+        "#8A947B",
+        "#AD705B",
+        "#F7F4ED",
+        "#292C29",
+        "#B8C6A8",
+        "#171C19"
+      ],
+      "fonts": [
+        "Newsreader (display serif)",
+        "Inter (UI)"
+      ],
+      "logo": "/projects/miaraos/icon.png"
+    },
+    "images": [
+      {
+        "path": "/projects/miaraos/hero-devices.jpg",
+        "width": 2880,
+        "height": 1620,
+        "kind": "og",
+        "alt": "Three iPhones showing the MiaraOS Trends, Today and Timeline screens under the headline \"Every feed, diaper and nap, shared.\""
+      },
+      {
+        "path": "/projects/miaraos/home-desktop.jpg",
+        "width": 2880,
+        "height": 1800,
+        "kind": "desktop",
+        "alt": "The Miara homepage hero, \"The little things, beautifully kept.\", beside a phone showing the Today screen with live-activity and undo toasts"
+      },
+      {
+        "path": "/projects/miaraos/logging-desktop.jpg",
+        "width": 2880,
+        "height": 1800,
+        "kind": "desktop",
+        "alt": "Miara homepage section on one-tap logging with the diaper quick-log sheet open"
+      },
+      {
+        "path": "/projects/miaraos/live-activity-desktop.jpg",
+        "width": 2880,
+        "height": 1800,
+        "kind": "desktop",
+        "alt": "A Lock Screen live activity timing a nap and a nursing session"
+      },
+      {
+        "path": "/projects/miaraos/first-foods-desktop.jpg",
+        "width": 2880,
+        "height": 1800,
+        "kind": "desktop",
+        "alt": "Insight cards and the first-foods rainbow with allergen counts"
+      },
+      {
+        "path": "/projects/miaraos/home-mobile.jpg",
+        "width": 1290,
+        "height": 2796,
+        "kind": "mobile",
+        "alt": "Miara homepage on a phone, dark theme"
+      },
+      {
+        "path": "/projects/miaraos/appstore-today.jpg",
+        "width": 1206,
+        "height": 2622,
+        "kind": "mobile",
+        "alt": "App Store screenshot of the Today screen: time since the last feed, diaper and sleep, plus today's totals"
+      },
+      {
+        "path": "/projects/miaraos/appstore-trends.jpg",
+        "width": 1206,
+        "height": 2622,
+        "kind": "mobile",
+        "alt": "App Store screenshot of Trends charting daily milk and bottle size"
+      },
+      {
+        "path": "/projects/miaraos/app-timeline.jpg",
+        "width": 1206,
+        "height": 2622,
+        "kind": "mobile",
+        "alt": "The iOS Timeline screen laying out a day of sleep, feeds and diapers"
+      },
+      {
+        "path": "/projects/miaraos/icon.png",
+        "width": 512,
+        "height": 512,
+        "kind": "icon",
+        "alt": "MiaraOS app icon: a serif M with a clay dot on cream"
+      }
+    ]
+  },
+  {
+    "slug": "semesterly",
+    "name": "Semester.ly",
+    "tagline": "Your semester, made simple.",
+    "description": "Semester.ly is a course-scheduling platform Noah co-founded as a Johns Hopkins student. It builds conflict-free schedules and shows course ratings, reviews, textbooks and which friends are in each class. It launched at Hopkins in October 2015, spread to universities in the U.S. and Canada, and was open-sourced in 2017. The live site is now maintained by JHU Open Source.",
+    "url": "https://semester.ly",
+    "repo": "https://github.com/noahpresler/semesterly",
+    "year": 2015,
+    "platform": [
+      "Web"
+    ],
+    "stack": [
+      "Python",
+      "Django",
+      "JavaScript",
+      "React",
+      "SCSS",
+      "Docker"
+    ],
+    "facts": [
+      "Co-founded with Rohan Das and Felix Zhu (University of Toronto); launched at Johns Hopkins on Oct 26, 2015",
+      "Over 1,000 Hopkins users in its first 24 hours (JHU News-Letter, 2017)",
+      "More than 26,000 users across three universities about a year after launch (JHU Hub, 2016)",
+      "More than two million searches and nearly a dozen universities, among them UMD, Queen's, GWU, Michigan and Salisbury (JHU News-Letter, 2017)",
+      "Open-sourced in 2017 under GPL v3; more than 30 student contributors",
+      "Noah is the top contributor to the original repo (1,299 commits); 94 stars and 184 forks",
+      "The original repo was deprecated in June 2021 and active development moved to github.com/jhuopensource/semesterly",
+      "The live site currently lists Johns Hopkins and the Costa Rica Institute of Technology"
+    ],
+    "brand": {
+      "colors": [
+        "#34485E",
+        "#FC7473",
+        "#36DEBA",
+        "#5CCCF0",
+        "#FFD360",
+        "#253340"
+      ],
+      "fonts": [
+        "Palanquin",
+        "Roboto"
+      ],
+      "logo": "/projects/semesterly/logo.png"
+    },
+    "images": [
+      {
+        "path": "/projects/semesterly/scheduler-mockup.png",
+        "width": 1704,
+        "height": 1324,
+        "kind": "desktop",
+        "alt": "The Semester.ly weekly scheduler in a browser frame, with color-coded courses and a sidebar of current courses"
+      },
+      {
+        "path": "/projects/semesterly/home-desktop.jpg",
+        "width": 2880,
+        "height": 1450,
+        "kind": "desktop",
+        "alt": "The semester.ly homepage, \"Your Semester, Made Simple\", with the list of supported schools and a scheduler mockup"
+      },
+      {
+        "path": "/projects/semesterly/app-live-desktop.jpg",
+        "width": 2880,
+        "height": 1800,
+        "kind": "desktop",
+        "alt": "The live JHU scheduler in dark mode with the onboarding step \"Search for a course\""
+      },
+      {
+        "path": "/projects/semesterly/advanced-search.png",
+        "width": 1340,
+        "height": 902,
+        "kind": "desktop",
+        "alt": "Advanced Search filtering by department, area, level and day/time"
+      },
+      {
+        "path": "/projects/semesterly/mobile-course-mockup.png",
+        "width": 615,
+        "height": 861,
+        "kind": "mobile",
+        "alt": "Course detail on a phone: Introduction to Business, 4 credits, with share, save and add actions"
+      },
+      {
+        "path": "/projects/semesterly/og.png",
+        "width": 1200,
+        "height": 630,
+        "kind": "og",
+        "alt": "The Semester.ly shield logo and wordmark over a faded schedule"
+      },
+      {
+        "path": "/projects/semesterly/logo.png",
+        "width": 558,
+        "height": 558,
+        "kind": "icon",
+        "alt": "The Semester.ly shield logo in coral, teal, sky blue and yellow"
+      }
+    ]
+  },
+  {
+    "slug": "namewise",
+    "name": "NameWise",
+    "tagline": "Find the name that feels like home.",
+    "description": "NameWise is an AI baby-name assistant for couples. It learns a family's style, heritage and story, then deals out personalized name cards to swipe through. When both partners love the same name, it lights up as a match, and family can be invited to swipe privately too.",
+    "url": "https://namewise.presler.me",
+    "repo": "https://github.com/noahpresler/NameWise (private)",
+    "year": 2026,
+    "platform": [
+      "Web",
+      "iOS"
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Supabase",
+      "Claude API",
+      "Capacitor (iOS)",
+      "Vercel"
+    ],
+    "facts": [
+      "Swipe-to-match: partners swipe independently and mutual likes become matches, with push notifications",
+      "Personalized onboarding on style, cultural roots and feel before the first name is suggested",
+      "Name library, middle-name pairing, notes, and private family swiping",
+      "iOS app is a Capacitor shell around the live site (bundle me.presler.namewise); App Store screenshots are prepared, but no public listing was found",
+      "Light and dark (night) themes",
+      "Repo started Feb 2026"
+    ],
+    "brand": {
+      "colors": [
+        "#7BA391",
+        "#5F8A76",
+        "#E8998D",
+        "#F2B366",
+        "#B8A9D4",
+        "#3A4B63",
+        "#3D3530",
+        "#FBF8F4",
+        "#1A1612"
+      ],
+      "fonts": [
+        "DM Serif Display (headings)",
+        "DM Sans (body)"
+      ],
+      "logo": "/projects/namewise/icon.png"
+    },
+    "images": [
+      {
+        "path": "/projects/namewise/hero-devices.jpg",
+        "width": 2880,
+        "height": 1620,
+        "kind": "og",
+        "alt": "Three iPhones showing the NameWise library, a swipe card for the name Lucia and a match screen, under \"Find the name, together\""
+      },
+      {
+        "path": "/projects/namewise/swipe-match-creative.jpg",
+        "width": 2880,
+        "height": 1920,
+        "kind": "desktop",
+        "alt": "Marketing creative, \"Swipe baby names. Match with your partner.\", with swipe and match screens"
+      },
+      {
+        "path": "/projects/namewise/home-desktop.jpg",
+        "width": 2880,
+        "height": 1800,
+        "kind": "desktop",
+        "alt": "The NameWise homepage hero, \"Find the name that feels like home.\", with floating name chips"
+      },
+      {
+        "path": "/projects/namewise/personalize-desktop.jpg",
+        "width": 2880,
+        "height": 1800,
+        "kind": "desktop",
+        "alt": "Homepage section \"Names that understand you\" showing the style-picker onboarding step"
+      },
+      {
+        "path": "/projects/namewise/home-mobile.jpg",
+        "width": 1290,
+        "height": 2796,
+        "kind": "mobile",
+        "alt": "The NameWise homepage on a phone"
+      },
+      {
+        "path": "/projects/namewise/appstore-swipe.jpg",
+        "width": 1320,
+        "height": 2868,
+        "kind": "mobile",
+        "alt": "App Store screenshot of the swipe card: Lucia, 96% match, meaning \"Light\""
+      },
+      {
+        "path": "/projects/namewise/appstore-match.jpg",
+        "width": 1320,
+        "height": 2868,
+        "kind": "mobile",
+        "alt": "App Store screenshot of the \"It's a match!\" celebration for Lucia"
+      },
+      {
+        "path": "/projects/namewise/icon.png",
+        "width": 1024,
+        "height": 1024,
+        "kind": "icon",
+        "alt": "NameWise app icon: a cream serif N with a rose dot on sage green"
+      }
+    ]
+  },
+  {
+    "slug": "wewatch",
+    "name": "WeWatch",
+    "tagline": "What to watch, together.",
+    "description": "WeWatch is a cinematic, AI-curated watchlist for couples and households. Each partner seeds their taste, and Claude blends both into weekly personalized recommendations. A shared Watched library, a drag-to-reorder Watch List and a Coming Soon feed show where every title is streaming.",
+    "url": "https://wewatch.presler.me",
+    "repo": "https://github.com/noahpresler/WeWatch (private)",
+    "year": 2026,
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase (Google OAuth)",
+      "Claude API",
+      "TMDB + OMDb data",
+      "Vercel Cron + KV",
+      "SwiftUI (iOS 26, Liquid Glass)",
+      "Kotlin (Android)"
+    ],
+    "facts": [
+      "Household-scoped: link two accounts with an invite code; recommendations blend both partners' tastes",
+      "Weekly batch refresh through Vercel cron jobs, plus rate-limited on-demand refresh",
+      "Title cards show IMDb and Rotten Tomatoes scores, NEW and NEW SEASON tags and streaming-service badges",
+      "Tabs for For You, Watched (Loved, Liked, Meh, Disliked), a drag-to-reorder Watch List and Coming Soon",
+      "Native SwiftUI iOS app (Liquid Glass) and an Android app share the same API; no public store listing found",
+      "Repo started Apr 2026"
+    ],
+    "brand": {
+      "colors": [
+        "#0A0A0F",
+        "#1A1A22",
+        "#F5F5F7",
+        "#B8B8C4",
+        "#FF3B6B",
+        "#FFB84D",
+        "#00D4AA"
+      ],
+      "fonts": [
+        "Instrument Serif (display)",
+        "Inter (UI)"
+      ],
+      "logo": "/projects/wewatch/icon.jpg"
+    },
+    "images": [
+      {
+        "path": "/projects/wewatch/home-desktop.jpg",
+        "width": 2880,
+        "height": 1800,
+        "kind": "desktop",
+        "alt": "The WeWatch homepage, \"What to watch, together.\", on a dark cinematic gradient"
+      },
+      {
+        "path": "/projects/wewatch/signin-desktop.jpg",
+        "width": 2880,
+        "height": 1800,
+        "kind": "desktop",
+        "alt": "The WeWatch glass sign-in card with Continue with Google"
+      },
+      {
+        "path": "/projects/wewatch/home-mobile.jpg",
+        "width": 1290,
+        "height": 2796,
+        "kind": "mobile",
+        "alt": "The WeWatch homepage on a phone"
+      },
+      {
+        "path": "/projects/wewatch/icon.jpg",
+        "width": 1024,
+        "height": 1024,
+        "kind": "icon",
+        "alt": "WeWatch app icon: a glass TV with sparkles over a magenta, indigo and teal gradient"
+      }
+    ]
+  }
+]
