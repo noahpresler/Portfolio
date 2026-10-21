@@ -10,7 +10,7 @@ import { EASE, Reveal, WordRise } from "./Reveal";
 
 export function Projects({ projects, number }: { projects: Project[]; number: string }) {
   return (
-    <section id="work" className="relative pt-32 md:pt-48">
+    <section id="work" className="relative pt-24 md:pt-48">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
           <p className="mb-8 font-mono text-[11px] uppercase tracking-[0.22em] text-mute">{number} — Things I build</p>
@@ -47,7 +47,7 @@ export function Projects({ projects, number }: { projects: Project[]; number: st
 function Glance({ projects }: { projects: Project[] }) {
   return (
     <div className="mx-auto mt-16 max-w-6xl px-4 md:mt-24 md:px-6">
-      <ol className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+      <ol className="grid gap-2.5 sm:grid-cols-2 sm:gap-3 lg:grid-cols-5">
         {projects.map((p, i) => {
           const icon = p.images.find((im) => /\/(icon|logo)\./.test(im.path));
           return (
@@ -61,14 +61,14 @@ function Glance({ projects }: { projects: Project[] }) {
             >
                 <a
                   href={`#${p.slug}`}
-                  className="group relative flex h-full flex-col overflow-hidden rounded-[20px] border border-white/[0.07] bg-ink-2 p-5 transition-[border-color,transform] duration-500 ease-[var(--ease-out)] hover:-translate-y-1 hover:border-white/15 lg:min-h-[268px]"
+                  className="group relative grid h-full grid-cols-[44px_1fr] gap-x-4 overflow-hidden rounded-[20px] border border-white/[0.07] bg-ink-2 p-4 transition-[border-color,transform] sm:flex sm:flex-col sm:p-5 duration-500 ease-[var(--ease-out)] hover:-translate-y-1 hover:border-white/15 lg:min-h-[268px]"
                 >
                   <span
                     aria-hidden
                     className="pointer-events-none absolute inset-0 opacity-60 transition-opacity duration-500 group-hover:opacity-100"
                     style={{ backgroundImage: `radial-gradient(90% 70% at 100% 0%, ${p.tint}2e, transparent 70%)` }}
                   />
-                  <span className="relative flex items-start justify-between">
+                  <span className="relative row-span-3 flex items-start justify-between">
                     {icon ? (
                       <Image
                         src={icon.path}
@@ -86,11 +86,11 @@ function Glance({ projects }: { projects: Project[] }) {
                         {p.name[0]}
                       </span>
                     )}
-                    <span className="font-mono text-[11px] tracking-[0.2em] text-faint">{String(i + 1).padStart(2, "0")}</span>
+                    <span className="font-mono text-[11px] tracking-[0.2em] text-faint max-sm:hidden">{String(i + 1).padStart(2, "0")}</span>
                   </span>
-                  <span className="relative mt-6 font-serif text-[26px] leading-none tracking-[-0.01em] text-paper md:mt-10">{p.name}</span>
-                  <span className="relative mt-2.5 text-[14px] leading-snug text-mute">{p.oneLiner}</span>
-                  <span className="relative mt-auto flex items-center justify-between pt-5 font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+                  <span className="relative mt-0.5 font-serif text-[23px] leading-none tracking-[-0.01em] text-paper sm:mt-6 sm:text-[26px] md:mt-10">{p.name}</span>
+                  <span className="relative mt-2 text-[14px] leading-snug text-mute sm:mt-2.5">{p.oneLiner}</span>
+                  <span className="relative mt-auto flex items-center justify-between pt-3 font-mono sm:pt-5 text-[10px] uppercase tracking-[0.18em] text-faint">
                     {p.platform}
                     <svg
                       viewBox="0 0 16 16"
@@ -211,7 +211,7 @@ function FeatureBlock({
     <Reveal y={40}>
       <div ref={ref}>
         <div
-          className="relative overflow-hidden rounded-[24px] border border-white/[0.06] bg-ink-2 px-5 py-8 md:px-10 md:py-12"
+          className="relative overflow-hidden rounded-[24px] border border-white/[0.06] bg-ink-2 px-3.5 py-6 sm:px-5 sm:py-8 md:px-10 md:py-12"
           style={{
             backgroundImage: `radial-gradient(80% 70% at 50% 110%, ${tint}30, transparent 70%), radial-gradient(60% 50% at 0% 0%, ${tint}12, transparent 70%)`,
           }}
@@ -233,7 +233,7 @@ function FeatureBlock({
 
 function Media({ img, frame, url, pair }: { img: Img; frame: "none" | "browser" | "phone"; url: string; pair: boolean }) {
   if (frame === "browser") return <BrowserFrame img={img} url={url} sizes="(min-width: 768px) 55vw, 92vw" className="w-full" />;
-  if (frame === "phone") return <PhoneFrame img={img} className="w-[min(62%,280px)]" sizes="280px" />;
+  if (frame === "phone") return <PhoneFrame img={img} className="w-[min(74%,280px)] sm:w-[min(62%,280px)]" sizes="280px" />;
   const portrait = img.height > img.width;
   return (
     <Image
@@ -243,7 +243,7 @@ function Media({ img, frame, url, pair }: { img: Img; frame: "none" | "browser" 
       height={img.height}
       sizes={pair ? "(min-width: 768px) 27vw, 45vw" : "(min-width: 768px) 55vw, 92vw"}
       className={`block h-auto rounded-[16px] shadow-[0_30px_60px_-20px_rgba(0,0,0,0.7),0_0_0_1px_rgba(255,255,255,0.07)] ${
-        pair ? "w-full" : portrait ? "w-[min(64%,340px)]" : "w-full"
+        pair ? "w-full" : portrait ? "w-[min(78%,340px)] sm:w-[min(64%,340px)]" : "w-full"
       }`}
     />
   );

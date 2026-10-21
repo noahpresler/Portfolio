@@ -20,17 +20,21 @@ export function HeroReel({ devices, shots }: { devices: Wearable[]; shots: ReelS
   const productShots: Shot[] = shots.map(({ label, href, ...img }) => ({ img, label, href }));
 
   return (
-    <section ref={ref} id="top" className="relative flex min-h-svh flex-col justify-center overflow-hidden pt-28 pb-10">
-      <motion.div style={{ opacity: fade }} className="mx-auto w-full max-w-6xl px-6 text-center">
+    <section ref={ref} id="top" className="relative flex min-h-svh flex-col overflow-hidden pt-24 pb-6 sm:justify-center sm:pt-28 sm:pb-10">
+      {/* On phones the copy centres in the space above the reels, which anchor to the bottom. */}
+      <motion.div style={{ opacity: fade }} className="mx-auto my-auto w-full max-w-6xl px-6 text-center sm:my-0">
         <motion.p
-          className="mb-6 font-mono text-[11px] uppercase tracking-[0.22em] text-mute"
+          className="mb-5 font-mono text-[10.5px] uppercase tracking-[0.2em] text-mute sm:mb-6 sm:text-[11px] sm:tracking-[0.22em]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.1 }}
         >
-          <span className="max-sm:hidden">Noah Presler · </span>Product Leader · Builder · Father
+          <span className="mb-2.5 block text-paper/85 sm:mb-0 sm:inline sm:text-mute">
+            Noah Presler<span className="max-sm:hidden"> · </span>
+          </span>
+          Product Leader · Builder · Father
         </motion.p>
-        <h1 className="font-serif text-[clamp(3rem,6.6vw,6.2rem)] leading-[0.93] tracking-[-0.025em]">
+        <h1 className="font-serif text-[clamp(3.2rem,14.5vw,4.2rem)] leading-[0.95] tracking-[-0.025em] sm:text-[clamp(3rem,6.6vw,6.2rem)] sm:leading-[0.93]">
           <WordRise text="Products that live" delay={0.2} />{" "}
           <br />
           <span className="italic text-accent">
@@ -38,7 +42,7 @@ export function HeroReel({ devices, shots }: { devices: Wearable[]; shots: ReelS
           </span>
         </h1>
         <motion.p
-          className="mx-auto mt-6 max-w-xl text-[16px] leading-relaxed text-mute md:text-[17px]"
+          className="mx-auto mt-5 max-w-[21rem] text-balance text-[15.5px] leading-relaxed text-mute sm:mt-6 sm:max-w-xl sm:text-[16px] md:text-[17px]"
           initial={{ opacity: 0, y: 12, filter: "blur(6px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1.1, ease: EASE, delay: 0.7 }}
@@ -48,7 +52,7 @@ export function HeroReel({ devices, shots }: { devices: Wearable[]; shots: ReelS
       </motion.div>
 
       <motion.div
-        className="mt-12 space-y-4 [mask-image:linear-gradient(90deg,transparent,#000_8%,#000_92%,transparent)] md:mt-14"
+        className="mt-10 space-y-3 [mask-image:linear-gradient(90deg,transparent,#000_8%,#000_92%,transparent)] sm:mt-12 sm:space-y-4 md:mt-14"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.4, ease: EASE, delay: 0.85 }}
@@ -80,7 +84,7 @@ function Reel({ shots, direction, shift, seconds }: { shots: Shot[]; direction: 
             href={s.href}
             aria-hidden={i >= shots.length || undefined}
             tabIndex={i >= shots.length ? -1 : undefined}
-            className="group relative block h-[clamp(130px,19svh,210px)] shrink-0 overflow-hidden rounded-[16px] border border-white/[0.07] bg-ink-2"
+            className="group relative block h-[clamp(112px,15svh,150px)] sm:h-[clamp(130px,19svh,210px)] shrink-0 overflow-hidden rounded-[16px] border border-white/[0.07] bg-ink-2"
             // Tiles take the shot's own shape, so a crop is never cropped again.
             style={{ aspectRatio: String(Math.min(2.1, Math.max(1.2, s.img.width / s.img.height))) }}
           >

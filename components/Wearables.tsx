@@ -23,11 +23,11 @@ export function Wearables({ devices, number }: { devices: Wearable[]; number: st
   const desktop = useIsDesktop();
 
   return (
-    <section id="wearables" className="relative pt-32 md:pt-48">
+    <section id="wearables" className="relative pt-20 md:pt-48">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
           <p className="mb-8 font-mono text-[11px] uppercase tracking-[0.22em] text-mute">
-            {number} — PM Lead · Fitbit &amp; Pixel Watch at Google
+            {number} — PM Lead · Fitbit &amp; Pixel Watch<span className="max-sm:hidden"> at Google</span>
           </p>
         </Reveal>
         <div className="grid gap-10 md:grid-cols-[1.3fr_1fr] md:items-end">
@@ -130,7 +130,7 @@ function DevicePanel({
             className="object-cover transition-transform duration-[1.6s] ease-[var(--ease-out)] group-hover:scale-[1.025]"
           />
         </motion.div>
-        <div className="absolute left-5 top-5 flex gap-2">
+        <div className="absolute right-5 top-5 flex gap-2">
           <Pill>{d.year}</Pill>
         </div>
       </div>
@@ -245,7 +245,7 @@ function StackedGallery({ devices }: { devices: Wearable[] }) {
           <article className="overflow-hidden rounded-[24px] border border-white/[0.07] bg-ink-2">
             <div className="relative aspect-video bg-[#e9e7e3]">
               <Image src={d.images[0].path} alt={d.images[0].alt} fill sizes="100vw" className="object-cover" />
-              <div className="absolute left-3 top-3 flex flex-wrap gap-1.5">
+              <div className="absolute right-3 top-3 flex flex-wrap gap-1.5">
                 <Pill>{d.year}</Pill>
               </div>
             </div>

@@ -37,17 +37,18 @@ export function Nav() {
         }`}
       >
         <a href="#top" className="group flex items-center gap-2.5 text-[15px] tracking-tight">
-          <span className="relative grid size-6 place-items-center rounded-full bg-paper text-ink">
-            <span className="font-serif text-[15px] italic leading-none">n</span>
+          <span className="relative grid size-7 place-items-center rounded-full bg-paper text-ink sm:size-6">
+            <span className="font-serif text-[16px] italic leading-none sm:text-[15px]">n</span>
           </span>
-          <span className="whitespace-nowrap font-medium">Noah Presler</span>
+          {/* Phones carry the name in the hero, keeping the bar to a mark and three links. */}
+          <span className="whitespace-nowrap font-medium max-sm:sr-only">Noah Presler</span>
         </a>
-        <ul className="flex items-center gap-0.5 text-[13px] sm:gap-1 text-mute">
+        <ul className="flex items-center gap-0.5 text-[14px] text-mute sm:gap-1 sm:text-[13px]">
           {LINKS.map((l) => (
             <li key={l.href}>
               <a
                 href={l.href}
-                className="rounded-full px-2 py-1.5 transition-colors sm:px-3 duration-300 hover:bg-white/[0.06] hover:text-paper"
+                className="rounded-full px-3 py-2 transition-colors duration-300 sm:py-1.5 hover:bg-white/[0.06] hover:text-paper"
               >
                 {l.label}
               </a>
