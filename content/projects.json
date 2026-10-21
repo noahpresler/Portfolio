@@ -235,24 +235,46 @@
     "description": "A shared watchlist for two. Each partner picks favorites and describes their taste; Claude blends both into fresh picks every week, says why you'll like each one, and shows where it's streaming.",
     "facts": [
       "Recommendations that blend two people's taste",
-      "IMDb and Rotten Tomatoes scores with streaming badges",
+      "IMDb and Rotten Tomatoes scores on every poster",
+      "New seasons of what you love, on a calendar",
       "Native SwiftUI (Liquid Glass) and Android apps"
     ],
     "tint": "#ff3b6b",
     "images": [
+      {
+        "path": "/projects/wewatch/app-foryou.jpg",
+        "width": 900,
+        "height": 1841,
+        "kind": "mobile",
+        "alt": "WeWatch on iPhone: \"For you, tonight\", curated by AI from your shared taste, with a Silo hero card and a \"New, and for you\" row of posters"
+      },
+      {
+        "path": "/projects/wewatch/app-list.jpg",
+        "width": 900,
+        "height": 1841,
+        "kind": "mobile",
+        "alt": "The WeWatch Watch List: a ranked list of The Diplomat, Charmed, Coven Academy and Lanterns with IMDb and RT scores and New Season badges; press and hold to reorder"
+      },
+      {
+        "path": "/projects/wewatch/app-soon.jpg",
+        "width": 900,
+        "height": 1841,
+        "kind": "mobile",
+        "alt": "WeWatch Coming Soon: new seasons of Love Is Blind, Grey's Anatomy, The Traitors and Nobody Wants This, dated and counted down"
+      },
+      {
+        "path": "/projects/wewatch/app-watched.jpg",
+        "width": 900,
+        "height": 1841,
+        "kind": "mobile",
+        "alt": "WeWatch Watched: 52 titles filtered into Loved, Liked and Meh, with a Loved shelf of posters"
+      },
       {
         "path": "/projects/wewatch/rev-hero.jpg",
         "width": 1920,
         "height": 1200,
         "kind": "desktop",
         "alt": "WeWatch: \"What to watch, together.\" in a large editorial serif on a dark cinematic gradient"
-      },
-      {
-        "path": "/projects/wewatch/home-mobile.jpg",
-        "width": 1290,
-        "height": 2796,
-        "kind": "mobile",
-        "alt": "The WeWatch homepage on a phone"
       },
       {
         "path": "/projects/wewatch/icon.jpg",
@@ -264,26 +286,36 @@
     ],
     "features": [
       {
-        "title": "Two tastes, one list",
-        "body": "Each of you picks favorites and writes what you love. Claude blends both into weekly picks, and when tonight calls for something lighter, one sentence reshuffles the list.",
+        "title": "For you, tonight",
+        "body": "Each of you picks favorites and writes what you love. Claude blends both into tonight’s picks, each with IMDb and Rotten Tomatoes scores, and one sentence reshuffles the lot when you want something lighter.",
         "media": [
           {
-            "src": "/projects/wewatch/rev-hero.jpg",
-            "frame": "browser"
+            "src": "/projects/wewatch/app-foryou.jpg",
+            "frame": "none"
           }
         ]
       },
       {
-        "title": "One list, every screen",
-        "body": "Native SwiftUI on iPhone with Liquid Glass, Kotlin on Android, and the web, all sharing one list. Every poster carries IMDb and Rotten Tomatoes scores and streaming badges.",
+        "title": "One list, in your order",
+        "body": "Everything you both want to watch lives in one ranked list, shared across iPhone (SwiftUI with Liquid Glass), Android and the web; press and hold to reorder. Coming Soon puts new seasons of the shows you love on a calendar, so nothing slips past.",
         "media": [
           {
-            "src": "/projects/wewatch/icon.jpg",
+            "src": "/projects/wewatch/app-list.jpg",
             "frame": "none"
           },
           {
-            "src": "/projects/wewatch/home-mobile.jpg",
-            "frame": "phone"
+            "src": "/projects/wewatch/app-soon.jpg",
+            "frame": "none"
+          }
+        ]
+      },
+      {
+        "title": "Remember what you loved",
+        "body": "Rate what you finish as Loved, Liked or Meh. Every rating sharpens the next round of picks, and the shelf becomes a record of everything you’ve watched together.",
+        "media": [
+          {
+            "src": "/projects/wewatch/app-watched.jpg",
+            "frame": "none"
           }
         ]
       }

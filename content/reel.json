@@ -24,11 +24,11 @@
     "href": "#miaraos"
   },
   {
-    "path": "/reel/wewatch-title.jpg",
-    "width": 1480,
-    "height": 820,
-    "alt": "WeWatch: What to watch, together",
-    "label": "WeWatch · What to watch, together",
+    "path": "/reel/wewatch-foryou.jpg",
+    "width": 1000,
+    "height": 847,
+    "alt": "WeWatch For You: \"For you, tonight\", curated by AI from your shared taste, led by Silo with IMDb 8.1 and RT 92%",
+    "label": "WeWatch · For you, tonight",
     "href": "#wewatch"
   },
   {
@@ -72,11 +72,11 @@
     "href": "#miaraos"
   },
   {
-    "path": "/reel/wewatch-icon.jpg",
-    "width": 1024,
-    "height": 790,
-    "alt": "WeWatch app icon: a glowing screen with a sparkle",
-    "label": "WeWatch · Let it pick the next great thing",
+    "path": "/reel/wewatch-watched.jpg",
+    "width": 1000,
+    "height": 740,
+    "alt": "WeWatch Watched: a Loved shelf of posters for Love Is Blind, Harry Potter and Percy Jackson with IMDb scores",
+    "label": "WeWatch · Everything you loved",
     "href": "#wewatch"
   }
 ]
