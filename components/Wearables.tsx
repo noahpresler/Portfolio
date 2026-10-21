@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import { motion, useMotionValue, useScroll, useSpring, useTransform, type MotionValue } from "motion/react";
+import { motion, useMotionValue, useScroll, useTransform, type MotionValue } from "motion/react";
 import type { Accolade, Wearable } from "@/lib/content";
 import { Arrow } from "./Contact";
 import { EASE, Reveal, WordRise } from "./Reveal";
@@ -80,8 +80,7 @@ function PinnedGallery({ devices }: { devices: Wearable[] }) {
   }, []);
 
   const { scrollYProgress } = useScroll({ target: outer, offset: ["start start", "end end"] });
-  const smooth = useSpring(scrollYProgress, { stiffness: 140, damping: 30, mass: 0.4 });
-  const x = useTransform(smooth, [0, 1], [0, -distance]);
+  const x = useTransform(scrollYProgress, [0, 1], [0, -distance]);
 
   return (
     <div ref={outer} style={{ height: `calc(100svh + ${distance}px)` }} className="relative">
@@ -92,10 +91,10 @@ function PinnedGallery({ devices }: { devices: Wearable[] }) {
           className="flex w-max gap-6 pl-[max(1.5rem,calc((100vw-72rem)/2+1.5rem))] pr-[max(1.5rem,calc((100vw-72rem)/2+1.5rem))] will-change-transform"
         >
           {devices.map((d, i) => (
-            <DevicePanel key={d.slug} device={d} index={i} total={devices.length} progress={smooth} />
+            <DevicePanel key={d.slug} device={d} index={i} total={devices.length} progress={scrollYProgress} />
           ))}
         </motion.div>
-        <Progress devices={devices} progress={smooth} />
+        <Progress devices={devices} progress={scrollYProgress} />
       </div>
     </div>
   );
@@ -226,10 +225,11 @@ function Progress({ devices, progress }: { devices: Wearable[]; progress: Motion
 function ProgressLabel({ label, index, total, progress }: { label: string; index: number; total: number; progress: MotionValue<number> }) {
   const c = index / Math.max(1, total - 1);
   const w = 0.6 / Math.max(1, total - 1);
-  const opacity = useTransform(progress, [c - w, c, c + w], [0.4, 1, 0.4]);
+  // Colour alone carries the fade: an opacity transform here gets hardware-accelerated,
+  // and the first and last labels' ranges run past 0–1, which the browser rejects.
   const color = useTransform(progress, [c - w, c, c + w], ["#f4f1ec52", "#f4f1ec", "#f4f1ec52"]);
   return (
-    <motion.span style={{ opacity, color }} className="whitespace-nowrap">
+    <motion.span style={{ color }} className="whitespace-nowrap">
       {label.replace("Fitbit ", "").replace("Pixel Watch", "PW")}
     </motion.span>
   );

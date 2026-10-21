@@ -54,8 +54,8 @@ function Glance({ projects }: { projects: Project[] }) {
             <motion.li
               key={p.slug}
               className={i === projects.length - 1 ? "sm:max-lg:col-span-2" : undefined}
-              initial={{ opacity: 0, y: 24, filter: "blur(8px)" }}
-              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "0px 0px -12% 0px" }}
               transition={{ duration: 1.1, ease: EASE, delay: i * 0.06 }}
             >
