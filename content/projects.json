@@ -387,7 +387,7 @@
     "tint": "#4db6ac",
     "images": [
       {
-        "path": "/projects/fitbitcompare/rev-hr-real.jpg",
+        "path": "/projects/fitbitcompare/rev-hr-final.jpg",
         "width": 2240,
         "height": 1960,
         "kind": "crop",
@@ -401,7 +401,7 @@
         "alt": "Sleep Stages Agreement card stacking two devices' awake, light, deep and REM timelines, with a 70% agreement rate and a 5.3% sleep duration delta"
       },
       {
-        "path": "/projects/fitbitcompare/rev-workout-real.jpg",
+        "path": "/projects/fitbitcompare/rev-workout-final.jpg",
         "width": 2240,
         "height": 2170,
         "kind": "crop",
@@ -414,7 +414,7 @@
         "body": "Minute-by-minute heart rate from each device on one chart. Red bands mark where they split, and PE10 scores how often they land more than 10 bpm apart.",
         "media": [
           {
-            "src": "/projects/fitbitcompare/rev-hr-real.jpg",
+            "src": "/projects/fitbitcompare/rev-hr-final.jpg",
             "frame": "none"
           }
         ]
@@ -434,7 +434,7 @@
         "body": "Pick a workout from each device to see distance, calories, elevation and route error side by side, with heart rate overlaid. Pair a Polar strap and it becomes ground truth.",
         "media": [
           {
-            "src": "/projects/fitbitcompare/rev-workout-real.jpg",
+            "src": "/projects/fitbitcompare/rev-workout-final.jpg",
             "frame": "none"
           }
         ]
